@@ -939,3 +939,10 @@ WildLifeInfo = {
         infectious = false,
     },
 }
+
+HorseInfo = {
+    name = 'A_C_HORSE_ATTACK',
+    modifier = 20.0,
+    damageType = 'BLUNT',
+    infectious = false,
+}
