@@ -14,6 +14,7 @@
 - Bone Based Healing
 - Poison Damage Handler
 - VORP Framework Integration
+- Hud System w Health/Needs/Horse
 
 ## Debug Commands
 - `shootBone` *(boneName, damageValue?)* `Damage Specific Bone with Specified Damage`
