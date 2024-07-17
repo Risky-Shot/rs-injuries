@@ -8,9 +8,15 @@ description 'A Minigame Resource. Thanks MaximilianAdF for code.'
 version '1.0'
 
 client_scripts {
-    'client/*.lua'
+    'data/*.lua',
+    'client/class.lua',
+    '@vorp_core/client/dataview.lua',
+    'client/main.lua',
+    'client/ragdoll.lua',
 }
 
 shared_scripts {
+    '@ox_lib/init.lua',
     'config/*.lua'
 }
+

@@ -1,4 +1,9 @@
 WeaponsInfo = {
+    ['DEFAULT'] = {
+        name = 'DEFAULT',
+        modifier = 1.0,
+        damageType ='DEFAULT',
+    },
     [tostring(`WEAPON_ALLIGATOR`)] = {
         name = 'WEAPON_ALLIGATOR',
         modifier = 20.0,
@@ -639,7 +644,7 @@ WeaponsInfo = {
     [tostring(`WEAPON_THROWN_BOLAS`)] = { 
         name = 'WEAPON_THROWN_BOLAS', 
         modifier = 1.0, 
-        damageType = 'DEFAULT 
+        damageType = 'DEFAULT'
     },
     [tostring(`WEAPON_THROWN_DYNAMITE`)] = {
         name = 'WEAPON_THROWN_DYNAMITE',
